@@ -4,19 +4,21 @@
     box-sizing: 0;
 }
 
-img {
+img{
       width: 25%;
       height: auto;
       background: url('housemd.jpeg') center/cover;
-      border: 3px solid #000;
+      border: 5px solid #000;
 }
 
 
 .card {
-  background: white;
+  background-color:#;
+  background: linear-gradient(to bottom, #9b3a3a, #c99595);
   border-radius: 12px;
+  border: 5px solid #9b3a3a;
   padding: 30px;
-  width: 350px;
+  width: 400px;
   box-shadow: 0 4px 30px rgba(0,0,0,0.2);
   text-align: center;
 }
@@ -24,6 +26,7 @@ img {
 .card img {
   width: 100%;
   border-radius: 10px;
+  border-color: #9b3a3a;
 }
 
 body {
@@ -32,4 +35,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+    font-size: 35px;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+    font-size: 30px;
+}
+
+ul{
+    list-style: none;
 }
